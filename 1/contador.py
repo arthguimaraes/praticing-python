@@ -1,6 +1,6 @@
 def limpar_texto(texto):
     texto = texto.lower()
-    caracteres = ", . ! : ; { } () [] |"
+    caracteres = ",.!:;{}()[]|"
     for char in caracteres:
         texto = texto.replace(char, "")
     return texto
